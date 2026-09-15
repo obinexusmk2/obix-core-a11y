@@ -1,5 +1,5 @@
 {
-  "name": "@obinexusltd/obix-sdk-accessibility",
+  "name": "@obinexusltd/obix-core-a11y",
   "version": "0.1.0",
   "description": "OBIX Accessibility - WCAG 2.2 enforcement, focus management, ARIA automation",
   "main": "dist/index.js",
@@ -11,7 +11,10 @@
     "test:watch": "vitest"
   },
   "files": [
-    "dist"
+    "dist",
+    "src",
+ "__tests__",
+ "tsconfig.json"
   ],
   "exports": {
     ".": {
@@ -22,7 +25,7 @@
   "license": "MIT",
   "author": "OBINexus <okpalan@protonmail.com>",
   "peerDependencies": {
-    "@obinexusltd/obix-sdk-core": "^0.1.0"
+    "@obinexusltd/obix-core-a11y": "^0.1.0"
   },
   "publishConfig": {
     "access": "public"
