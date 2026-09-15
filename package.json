@@ -1,6 +1,6 @@
 {
   "name": "@obinexusltd/obix-core-a11y",
-  "version": "0.1.0rc",
+  "version": "0.1.0",
   "description": "OBIX Accessibility - WCAG 2.2 enforcement, focus management, ARIA automation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
